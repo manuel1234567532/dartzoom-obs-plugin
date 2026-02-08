@@ -1,26 +1,6 @@
-Thank you very much for purchasing DartZoom! 🙏
-We really appreciate your support and hope this tool will improve your darts stream and viewer experience.
+# DartLab Releases
 
-DartZoom automatically zooms to the correct checkout area for your viewers.
-For example, when you attempt a 180, it instantly focuses on the T20 segment. The same intelligent zoom applies to high checkouts, always zooming to the relevant target area.
+This repository contains **compiled release packages only**.
 
-📺 Tutorial Videos
-
-Please watch the full setup tutorial here:
-
-🇬🇧 English Tutorial:
-👉 https://www.youtube.com/watch?v=uijDL0rxR3g
-
-🇩🇪 German Tutorial:
-👉 https://www.youtube.com/watch?v=Xh7R-xPH8zw
-
-OBS MOVE TRANSITION PLUGIN:
-👉 https://github.com/exeldro/obs-move-transition/releases
-
-💬 Need Help or Updates for DartZoom?
-
-If you need any help or looking for updates for DartZoom or want to give feedback, feel free to join our Discord community:
-
-👉 Discord: https://discord.gg/ardDSrSzZY
-
-We’re happy to help you! 🙂
+🔒 Source code is not published.
+📦 Downloads are available under **Releases**.

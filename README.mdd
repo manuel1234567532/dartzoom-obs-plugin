@@ -1,7 +1,9 @@
+# 🎯 DartZoom
+
 ![DartZoom](logo-header.png)
 
-**Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.**
-No manual input. No delays. Frame-perfect zoom animations, fully automated.
+> **Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.**  
+> No manual input. No delays. **Frame-perfect zoom animations**, fully automated.
 
 [![Latest Release](https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release)](https://github.com/manuel1234567532/dartzoom-releases/releases)
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e)](https://discord.gg/nMb3X9sWgv)
@@ -9,97 +11,176 @@ No manual input. No delays. Frame-perfect zoom animations, fully automated.
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 | | |
 |---|---|
-| 🎥 | **Automatic segment zoom** — zooms to the exact field for every throw (S1–S20, D1–D20, T1–T20, Bull, Bullseye, Miss) |
-| 🏁 | **Smart checkout prediction** — pre-zooms to the next required segment before the dart is thrown |
-| 🔁 | **T20 streak detection** — stays locked on T20 after two consecutive trebles |
-| 🎬 | **Scene automations** — trigger show/hide actions on Game On, Game End, My Turn and Opponent's Turn |
-| 🔊 | **Sound effects** — play OBS media sources on zoom-in and zoom-out |
-| 🗺️ | **Custom checkout routes** — override the Autodarts checkout guide with your own paths |
-| 💾 | **Filter backup & restore** — export and import all filter positions as JSON |
-| 👥 | **Multi-username support** — track multiple Autodarts accounts simultaneously |
+| 🎯 | **Automatic segment zoom** — zooms to the exact field for every throw (`S1–S20`, `D1–D20`, `T1–T20`, `Bull`, `Bullseye`, `Miss`) |
+| 🧠 | **Smart checkout prediction** — pre-zooms to the next required segment before the dart is thrown |
+| 🔥 | **T20 streak detection** — stays locked on **T20** after two consecutive trebles |
+| 🎬 | **OBS scene automations** — trigger actions on *Game On*, *Game End*, *My Turn* and *Opponent Turn* |
+| 🔊 | **Sound effects support** — play OBS media sources on zoom-in / zoom-out |
+| 🗺️ | **Custom checkout routes** — override Autodarts checkout guide |
+| 💾 | **Filter backup & restore** — export/import all filter transforms as JSON |
+| 👥 | **Multi-username support** — track multiple Autodarts players |
 
 ---
 
-## 📋 Requirements
+# 📋 Requirements
 
-- [OBS Studio](https://obsproject.com/)
-- [OBS Move Transition Plugin](https://github.com/exeldro/obs-move-transition)
-- Google Chrome (or any Chromium-based browser)
-- An active [Autodarts](https://autodarts.io/) setup
+Before installing DartZoom, make sure you have:
 
----
-
-## 🚀 Installation
-
-**1. Install the OBS Move Transition Plugin**
-
-Download the plugin and run the Windows installer — it installs into OBS automatically.
-
-**2. Load the Chrome Extension**
-
-1. Open Chrome and go to `chrome://extensions`
-2. Enable **Developer Mode** (top right toggle)
-3. Click **Load unpacked** and select the extracted DartZoom folder
+- 🎥 [OBS Studio](https://obsproject.com/)
+- 🔄 [OBS Move Transition Plugin](https://github.com/exeldro/obs-move-transition)
+- 🌐 Google Chrome (or Chromium browser)
+- 🎯 Active [Autodarts](https://autodarts.io/) setup
 
 ---
 
-## ⚙️ Setup Guide
+# 🚀 Installation
 
-### Step 1 — Create a Board Scene in OBS
-Create a new scene called `Board`. Add your board camera as a source. Crop it using **Alt + drag** so the board fills the frame perfectly.
+## 1️⃣ Install OBS Move Transition Plugin
 
-### Step 2 — Add Board Scene to your Main Scene
-In your main streaming scene, add the `Board` scene as a source.
+Download the plugin and run the **Windows installer**.  
+It installs automatically into OBS.
 
-### Step 3 — Connect OBS WebSocket
-Go to **Tools → WebSocket Server Settings**, enable the server, disable authentication, click **Apply**.
+---
 
-### Step 4 — Configure DartZoom
+## 2️⃣ Install the Chrome Extension
 
-Open the extension and fill in:
+1. Open Chrome  
+2. Go to:
+
+```
+chrome://extensions
+```
+
+3. Enable **Developer Mode** (top right)  
+4. Click **Load unpacked**  
+5. Select the extracted **DartZoom** folder
+
+---
+
+# ⚙️ Setup Guide
+
+## 1️⃣ Create a Board Scene
+
+Create a scene called:
+
+```
+Board
+```
+
+Add your **board camera** as a source.
+
+Crop the board using:
+
+```
+ALT + Drag
+```
+
+until the board perfectly fills the frame.
+
+---
+
+## 2️⃣ Add Board Scene to your Stream Scene
+
+In your main streaming scene:
+
+```
+Add Source → Scene → Board
+```
+
+---
+
+## 3️⃣ Enable OBS WebSocket
+
+Open:
+
+```
+Tools → WebSocket Server Settings
+```
+
+Settings:
+
+- Enable WebSocket Server
+- Disable Authentication
+- Click **Apply**
+
+---
+
+## 4️⃣ Configure DartZoom
+
+Open the extension and configure:
 
 | Field | Description |
 |---|---|
-| **Username** | Your Autodarts username(s) |
-| **Scene** | Scene containing your board source (e.g. `Board`) |
-| **Source** | Board camera source name (e.g. `Boardcam`) |
-| **Default Filter** | Filter name for the default/wide view (e.g. `Default`) |
+| Username | Your Autodarts username(s) |
+| Scene | Scene containing your board source (e.g. `Board`) |
+| Source | Board camera source name (e.g. `Boardcam`) |
+| Default Filter | Filter for the wide board view (e.g. `Default`) |
 
-Then click **Create All Cam Filters** — this automatically creates 64 Move Source filters on your source.
+Then click:
 
-### Step 5 — Set Filter Positions in OBS
+```
+Create All Cam Filters
+```
 
-1. Right-click your board source → **Filters**
-2. Select the `Default` filter → scroll down → click **Get Transform** to save the wide shot
-3. For each segment (e.g. `T20`): zoom to that field visually → click **Get Transform**
-4. Repeat for all segments you want to cover
-
-### Step 6 — Test
-
-Use the **Test Filters** buttons in the extension to verify all zoom animations work correctly.
+This automatically creates **64 Move Source filters**.
 
 ---
 
-## 🎛️ Settings Reference
+## 5️⃣ Set Zoom Positions in OBS
+
+Open:
+
+```
+Right Click Source → Filters
+```
+
+### Default View
+
+1. Select `Default`
+2. Scroll down
+3. Click **Get Transform**
+
+### Segment Zooms
+
+Example `T20`:
+
+1. Visually zoom to the segment
+2. Click **Get Transform**
+
+Repeat for all segments you want.
+
+---
+
+# 🧪 Testing
+
+Use the **Test Filters** buttons in the extension.
+
+You should see smooth **zoom animations** between segments.
+
+---
+
+# 🎛️ Settings Reference
 
 | Setting | Description |
 |---|---|
-| **Display Duration** | How long (ms) the zoom holds after a throw |
-| **Checkout Score** | Score threshold for checkout prediction (default: `170`) |
-| **Filter Duration** | Move Source animation duration in ms |
-| **Easing Function / Type** | Animation curve — Cubic, Sine, Bounce, etc. |
-| **Zoom Sound** | OBS Media Source name to play on zoom-in |
-| **Default Sound** | OBS Media Source name to play on return to default |
+| Display Duration | Time the zoom remains visible after a throw |
+| Checkout Score | Score threshold for checkout prediction (default `170`) |
+| Filter Duration | Animation time of Move Source filters |
+| Easing Function | Animation curve (Cubic, Sine, Bounce, etc.) |
+| Zoom Sound | OBS media source played on zoom |
+| Default Sound | Sound when returning to default view |
 
 ---
 
-## 🗺️ Custom Checkout Routes
+# 🗺️ Custom Checkout Routes
 
-Override the Autodarts checkout guide with your own paths:
+Override the Autodarts checkout guide.
+
+Example:
 
 ```
 40  →  S20, D10
@@ -107,41 +188,75 @@ Override the Autodarts checkout guide with your own paths:
 170 →  T20, T20, Bull
 ```
 
-Supported notation: `S1–S20` `D1–D20` `T1–T20` `Bull` `DBull`
+Supported notation:
+
+```
+S1–S20
+D1–D20
+T1–T20
+Bull
+DBull
+```
 
 ---
 
-## 🎬 Automations
+# 🎬 OBS Automations
 
-Trigger OBS actions automatically on game events:
+DartZoom can trigger OBS actions automatically.
 
-| Event | When it fires |
+| Event | Trigger |
 |---|---|
-| **Game On** | First throw of a match |
-| **Game End** | Match is finished |
-| **My Turn** | A tracked player's turn begins |
-| **Opponent's Turn** | Opponent's turn begins |
+| Game On | First throw of a match |
+| Game End | Match finished |
+| My Turn | Your turn begins |
+| Opponent Turn | Opponent's turn begins |
 
-Each event supports **Show** and **Hide** action lists targeting sources, scenes or filters — with optional delay in seconds.
+Each event can trigger:
+
+- Show source
+- Hide source
+- Enable filter
+- Disable filter
+
+Optional delay supported.
 
 ---
 
-## 💾 Backup & Restore
+# 💾 Backup & Restore
 
 | | |
 |---|---|
-| 📥 **Export Filter Settings** | Saves all filter positions and easing values to a `.json` file |
-| 📤 **Import Filter Settings** | Restores filter positions from a backup file |
-| ⚙️ **Settings Backup** | Exports all extension settings — OBS config, usernames, checkout routes, action lists |
+| 📥 Export Filters | Save filter transforms to `.json` |
+| 📤 Import Filters | Restore filter transforms |
+| ⚙️ Settings Backup | Export all extension settings |
+
+Perfect for:
+
+- reinstalling OBS
+- migrating setups
+- sharing configs
 
 ---
 
-## 📦 Releases
+# 📦 Releases
 
-See the [**Releases**](https://github.com/manuel1234567532/dartzoom-releases/releases) page for the latest version, download and changelog.
+Download the latest version here:
+
+➡️ **https://github.com/manuel1234567532/dartzoom-releases/releases**
 
 ---
 
-[![Discord](https://img.shields.io/badge/Need%20help%3F-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nMb3X9sWgv)
+# 💬 Community
 
-*Made by [Lobiix](https://discord.com/users/424319034528366612)*
+Need help or want to share your setup?
+
+[![Discord](https://img.shields.io/badge/Join%20the%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nMb3X9sWgv)
+
+---
+
+# 👨‍💻 Author
+
+Created by **Lobiix**
+
+Discord  
+https://discord.com/users/424319034528366612

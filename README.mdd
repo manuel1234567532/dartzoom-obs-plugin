@@ -1,66 +1,34 @@
-<div align="center">
+<p align="center">
+  <img src="logo-header.png" alt="DartZoom" width="280" />
+</p>
 
-<img src="logo-header.png" alt="DartZoom" width="280" />
-
-<br/>
-
-<p>
+<p align="center">
   <strong>Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.</strong><br/>
   No manual input. No delays. Frame-perfect zoom animations, fully automated.
 </p>
 
-<a href="https://github.com/manuel1234567532/dartzoom-releases/releases">
-  <img src="https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release" />
-</a>
-&nbsp;
-<a href="https://discord.gg/nMb3X9sWgv">
-  <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e" />
-</a>
-&nbsp;
-<a href="https://github.com/manuel1234567532/dartzoom-releases/releases">
-  <img src="https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e" />
-</a>
-
-</div>
+<p align="center">
+  <a href="https://github.com/manuel1234567532/dartzoom-releases/releases"><img src="https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release" /></a>
+  &nbsp;
+  <a href="https://discord.gg/nMb3X9sWgv"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e" /></a>
+  &nbsp;
+  <a href="https://github.com/manuel1234567532/dartzoom-releases/releases"><img src="https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e" /></a>
+</p>
 
 ---
 
 ## ✨ Features
 
-<table>
-<tr>
-<td>🎥</td>
-<td><strong>Automatic segment zoom</strong> — zooms to the exact field for every throw (S1–S20, D1–D20, T1–T20, Bull, Bullseye, Miss)</td>
-</tr>
-<tr>
-<td>🏁</td>
-<td><strong>Smart checkout prediction</strong> — pre-zooms to the next required segment before the dart is thrown</td>
-</tr>
-<tr>
-<td>🔁</td>
-<td><strong>T20 streak detection</strong> — stays locked on T20 after two consecutive trebles</td>
-</tr>
-<tr>
-<td>🎬</td>
-<td><strong>Scene automations</strong> — trigger show/hide actions on Game On, Game End, My Turn and Opponent's Turn</td>
-</tr>
-<tr>
-<td>🔊</td>
-<td><strong>Sound effects</strong> — play OBS media sources on zoom-in and zoom-out</td>
-</tr>
-<tr>
-<td>🗺️</td>
-<td><strong>Custom checkout routes</strong> — override the Autodarts checkout guide with your own paths</td>
-</tr>
-<tr>
-<td>💾</td>
-<td><strong>Filter backup & restore</strong> — export and import all filter positions as JSON</td>
-</tr>
-<tr>
-<td>👥</td>
-<td><strong>Multi-username support</strong> — track multiple Autodarts accounts simultaneously</td>
-</tr>
-</table>
+| | |
+|---|---|
+| 🎥 | **Automatic segment zoom** — zooms to the exact field for every throw (S1–S20, D1–D20, T1–T20, Bull, Bullseye, Miss) |
+| 🏁 | **Smart checkout prediction** — pre-zooms to the next required segment before the dart is thrown |
+| 🔁 | **T20 streak detection** — stays locked on T20 after two consecutive trebles |
+| 🎬 | **Scene automations** — trigger show/hide actions on Game On, Game End, My Turn and Opponent's Turn |
+| 🔊 | **Sound effects** — play OBS media sources on zoom-in and zoom-out |
+| 🗺️ | **Custom checkout routes** — override the Autodarts checkout guide with your own paths |
+| 💾 | **Filter backup & restore** — export and import all filter positions as JSON |
+| 👥 | **Multi-username support** — track multiple Autodarts accounts simultaneously |
 
 ---
 
@@ -147,7 +115,7 @@ Override the Autodarts checkout guide with your own paths:
 170 →  T20, T20, Bull
 ```
 
-Supported notation: `S1–S20` &nbsp;`D1–D20` &nbsp;`T1–T20` &nbsp;`Bull` &nbsp;`DBull`
+Supported notation: `S1–S20` `D1–D20` `T1–T20` `Bull` `DBull`
 
 ---
 
@@ -168,20 +136,11 @@ Each event supports **Show** and **Hide** action lists targeting sources, scenes
 
 ## 💾 Backup & Restore
 
-<table>
-<tr>
-<td>📥 <strong>Export Filter Settings</strong></td>
-<td>Saves all filter positions and easing values to a <code>.json</code> file</td>
-</tr>
-<tr>
-<td>📤 <strong>Import Filter Settings</strong></td>
-<td>Restores filter positions from a backup file</td>
-</tr>
-<tr>
-<td>⚙️ <strong>Settings Backup</strong></td>
-<td>Exports all extension settings — OBS config, usernames, checkout routes, action lists</td>
-</tr>
-</table>
+| | |
+|---|---|
+| 📥 **Export Filter Settings** | Saves all filter positions and easing values to a `.json` file |
+| 📤 **Import Filter Settings** | Restores filter positions from a backup file |
+| ⚙️ **Settings Backup** | Exports all extension settings — OBS config, usernames, checkout routes, action lists |
 
 ---
 
@@ -191,14 +150,8 @@ See the [**Releases**](https://github.com/manuel1234567532/dartzoom-releases/rel
 
 ---
 
-<div align="center">
-
-<a href="https://discord.gg/nMb3X9sWgv">
-  <img src="https://img.shields.io/badge/Need%20help%3F-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" />
-</a>
-
-<br/><br/>
-
-<sub>Made by <a href="https://discord.com/users/424319034528366612">Lobiix</a></sub>
-
-</div>
+<p align="center">
+  <a href="https://discord.gg/nMb3X9sWgv"><img src="https://img.shields.io/badge/Need%20help%3F-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  <br/><br/>
+  <sub>Made by <a href="https://discord.com/users/424319034528366612">Lobiix</a></sub>
+</p>

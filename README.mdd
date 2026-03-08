@@ -1,19 +1,11 @@
-<p align="center">
-  <img src="logo-header.png" alt="DartZoom" width="280" />
-</p>
+![DartZoom](logo-header.png)
 
-<p align="center">
-  <strong>Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.</strong><br/>
-  No manual input. No delays. Frame-perfect zoom animations, fully automated.
-</p>
+**Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.**
+No manual input. No delays. Frame-perfect zoom animations, fully automated.
 
-<p align="center">
-  <a href="https://github.com/manuel1234567532/dartzoom-releases/releases"><img src="https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release" /></a>
-  &nbsp;
-  <a href="https://discord.gg/nMb3X9sWgv"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e" /></a>
-  &nbsp;
-  <a href="https://github.com/manuel1234567532/dartzoom-releases/releases"><img src="https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e" /></a>
-</p>
+[![Latest Release](https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release)](https://github.com/manuel1234567532/dartzoom-releases/releases)
+[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e)](https://discord.gg/nMb3X9sWgv)
+[![Chrome](https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e)](https://github.com/manuel1234567532/dartzoom-releases/releases)
 
 ---
 
@@ -150,8 +142,6 @@ See the [**Releases**](https://github.com/manuel1234567532/dartzoom-releases/rel
 
 ---
 
-<p align="center">
-  <a href="https://discord.gg/nMb3X9sWgv"><img src="https://img.shields.io/badge/Need%20help%3F-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <br/><br/>
-  <sub>Made by <a href="https://discord.com/users/424319034528366612">Lobiix</a></sub>
-</p>
+[![Discord](https://img.shields.io/badge/Need%20help%3F-Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nMb3X9sWgv)
+
+*Made by [Lobiix](https://discord.com/users/424319034528366612)*

@@ -3,7 +3,7 @@
 > **Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.**  
 > No manual input. No delays. **Frame-perfect zoom animations**, fully automated.
 
-[![Latest Release](https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release)](https://github.com/manuel1234567532/dartzoom-releases/releases)
+[![Latest Release](https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&color=00d4ff&labelColor=1a1a2e&label=Latest+Release)]([https://github.com/manuel1234567532/dartzoom-releases/releases](https://github.com/manuel1234567532/dartzoom-releases/releases/tag/v1.0))
 [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e)](https://discord.gg/nMb3X9sWgv)
 [![Chrome](https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e)](https://github.com/manuel1234567532/dartzoom-releases/releases)
 

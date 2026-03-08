@@ -1,6 +1,6 @@
 # 🎯 DartZoom
 
-![DartZoom](logo-header.png)
+![DartZoom]([logo-header.png](https://i.imgur.com/TzEpN8I.png))
 
 > **Automatic camera zoom for Autodarts — powered by OBS Move Transition filters.**  
 > No manual input. No delays. **Frame-perfect zoom animations**, fully automated.

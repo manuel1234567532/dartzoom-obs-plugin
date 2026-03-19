@@ -4,7 +4,6 @@
 > No manual input. No delays. **Frame-perfect zoom animations**, fully automated.
 
 [![Latest Release](https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&cacheSeconds=60)](https://github.com/manuel1234567532/dartzoom-releases/releases)
-[![Discord](https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=1a1a2e)](https://discord.gg/nMb3X9sWgv)
 [![Chrome](https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e)](https://github.com/manuel1234567532/dartzoom-releases/releases)
 
 ---
@@ -241,14 +240,6 @@ Perfect for:
 Download the latest version here:
 
 ➡️ **https://github.com/manuel1234567532/dartzoom-releases/releases**
-
----
-
-# 💬 Community
-
-Need help or want to share your setup?
-
-[![Discord](https://img.shields.io/badge/Join%20the%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/nMb3X9sWgv)
 
 ---
 

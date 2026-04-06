@@ -8,7 +8,9 @@
 
 ---
 
-[![DartZoom Setup ▶](https://img.youtube.com/vi/uijDL0rxR3g/0.jpg)](https://www.youtube.com/watch?v=uijDL0rxR3g)
+<a href="[https://www.youtube.com/watch?v=uijDL0rxR3g](https://www.youtube.com/watch?v=_FMk6cmSFlg)">
+  <img src="https://i.ytimg.com/vi/uijDL0rxR3g/maxresdefault.jpg" alt="DartZoom Setup Guide" width="560"/>
+</a>
 
 # ✨ Features
 

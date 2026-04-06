@@ -8,7 +8,7 @@
 
 ---
 
-[![Watch the video](https://img.youtube.com/vi/uijDL0rxR3g/maxresdefault.jpg)](https://www.youtube.com/watch?v=uijDL0rxR3g)
+[![DartZoom Setup ▶](https://img.youtube.com/vi/uijDL0rxR3g/0.jpg)](https://www.youtube.com/watch?v=uijDL0rxR3g)
 
 # ✨ Features
 

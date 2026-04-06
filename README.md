@@ -5,10 +5,9 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/manuel1234567532/dartzoom-releases?style=for-the-badge&cacheSeconds=60)](https://github.com/manuel1234567532/dartzoom-releases/releases)
 [![Chrome](https://img.shields.io/badge/Platform-Chrome-yellow?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=1a1a2e)](https://github.com/manuel1234567532/dartzoom-releases/releases)
+[![Setup Guide ansehen](https://img.shields.io/badge/▶_Setup_Guide-YouTube-red?style=for-the-badge&logo=youtube)]([https://www.youtube.com/watch?v=uijDL0rxR3g](https://www.youtube.com/watch?v=_FMk6cmSFlg))
 
 ---
-
-[![Setup Guide ansehen](https://img.shields.io/badge/▶_Setup_Guide-YouTube-red?style=for-the-badge&logo=youtube)]([https://www.youtube.com/watch?v=uijDL0rxR3g](https://www.youtube.com/watch?v=_FMk6cmSFlg))
 
 # ✨ Features
 

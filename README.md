@@ -8,9 +8,7 @@
 
 ---
 
-<a href="[https://www.youtube.com/watch?v=uijDL0rxR3g](https://www.youtube.com/watch?v=_FMk6cmSFlg)">
-  <img src="https://i.ytimg.com/vi/uijDL0rxR3g/maxresdefault.jpg" alt="DartZoom Setup Guide" width="560"/>
-</a>
+[![Setup Guide ansehen](https://img.shields.io/badge/▶_Setup_Guide-YouTube-red?style=for-the-badge&logo=youtube)]([https://www.youtube.com/watch?v=uijDL0rxR3g](https://www.youtube.com/watch?v=_FMk6cmSFlg))
 
 # ✨ Features
 

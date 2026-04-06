@@ -8,9 +8,11 @@
 
 ---
 
-## 🎬 Setup Video
-
-[![DartZoom Setup](https://img.youtube.com/vi/uijDL0rxR3g/maxresdefault.jpg)](https://www.youtube.com/watch?v=uijDL0rxR3g)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=uijDL0rxR3g">
+    <img src="https://img.youtube.com/vi/uijDL0rxR3g/maxresdefault.jpg" width="600">
+  </a>
+</p>
 
 # ✨ Features
 
